@@ -56,15 +56,16 @@ jobs:
       - aws-cli/setup
       - checkout
       - run:
+          name: Deploy udagram-frontend
+          # TODO: Install, build, deploy in both apps
+          command: |
+            npm run frontend:deploy         
+      - run:
           name: Deploy udagram-backend
           # TODO: Install, build, deploy in both apps
           command: |
             npm run api:deploy
-      - run:
-          name: Deploy udagram-frontend
-          # TODO: Install, build, deploy in both apps
-          command: |
-            npm run frontend:deploy            
+         
 workflows:
   udagram:
     jobs:
