@@ -1,4 +1,4 @@
-eb init udagram-api-dev --region $AWS_DEFAULT_REGION --platform node.js && eb use udagram-env && \
+eb init udagram-api-dev --region us-east-1 --platform node.js && eb use udagram-env && \
 eb setenv POSTGRES_USERNAME=$POSTGRES_USERNAME POSTGRES_PASSWORD=$POSTGRES_PASSWORD \
 POSTGRES_HOST=$POSTGRES_HOST POSTGRES_DB=$POSTGRES_DB JWT_SECRET=$JWT_SECRET \
 DB_PORT=$DB_PORT AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY AWS_PROFILE=$AWS_PROFILE URL=$URL AWS_BUCKET=$AWS_BUCKET \
