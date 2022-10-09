@@ -1,6 +1,6 @@
 # Hosting a Full-Stack Application
 
-## Applicarion URL:
+## Udagram Applicarion URL:
   - http://galal-udagram.s3-website-us-east-1.amazonaws.com/
 
 ---
